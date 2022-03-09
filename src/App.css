@@ -1,0 +1,15 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+}
+
+.curtain {
+  width: 50%;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 100;
+  background: white;
+  mix-blend-mode: difference;
+  border-right: 4px solid white;
+}
